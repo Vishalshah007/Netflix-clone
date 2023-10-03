@@ -1,0 +1,242 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 5rem;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    height: 3.3rem;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+.netflix {
+    width: 7.3rem;
+    margin-left: 2rem;
+    margin-top: -1.6rem;
+}
+
+nav {
+    margin-left: 11rem;
+    margin-top: -5.1rem;
+}
+
+li a {
+    text-decoration: none;
+    color: #b8b7b7;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li a:hover {
+    color: rgb(255, 255, 255);
+    font-weight: 540;
+}
+
+li {
+    display: inline;
+    padding: 0.5rem;
+}
+
+.n {
+    height: 6rem;
+    margin-top: 6rem;
+}
+
+.seri {
+    color: rgb(239, 216, 216);
+    margin-left: 6rem;
+    margin-top: -3.7rem;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ohio {
+    width: 33rem;
+    height: 16.5rem;
+    margin-top: -4rem;
+    margin-left: 2rem;
+}
+
+.index {
+    background: url(./images/Devil.png);
+    background-size: cover;
+    width: 100%;
+}
+
+.contain {
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 4rem;
+    letter-spacing: 0.1rem;
+}
+
+.content {
+    background-image: linear-gradient(to right,
+            rgba(0, 0, 0, 0.769) 20%,
+            rgba(0, 0, 0, 0.779) 40%,
+            rgba(0, 0, 15, 0.253) 70%,
+            rgba(0, 0, 0, 0) 100%);
+    height: 45rem;
+    width: 63%;
+}
+
+#main {
+    margin-top: 3rem;
+    line-height: 1.5rem;
+}
+
+button {
+    background-color: rgba(161, 151, 151, 0.5);
+    color: white;
+    border: none;
+    width: 10rem;
+    height: 2.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2rem;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    font-weight: 700;
+}
+
+.categories {
+    background-color: black;
+    width: 100%;
+    height: 292vh;
+    margin-top: -2.979rem;
+}
+
+h2 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    font-size: 1.3rem;
+}
+
+.box {
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    overflow-y: auto;
+    gap: 1.2rem;
+    padding: 9px;
+}
+
+.box::-webkit-scrollbar{
+    display: none;
+}
+
+.small {
+    width: 300px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.small:hover{
+    border: 3.2px solid white;
+    transition: 0.1s;
+}
+
+.large {
+    width: 15rem;
+    aspect-ratio: 6/9;
+}
+
+.large:hover{
+    border: 3.5px solid white;
+    transition: 0.2s;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: #767676;
+    display: grid;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.foot {
+    margin-left: 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    line-height: 2rem;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10rem;
+    margin-top: 2.3rem;
+}
+
+@media(max-width: 998px) {
+    .contain{
+        font-size: 10px;
+    }
+    html {
+        font-size: 50%;
+    }
+}
+
+@media(max-width: 768px) {
+    .contain{
+        font-size: 7px;
+        line-height: 12px;
+    }
+    html{
+        font-size: 30%;
+    }
+    li a{
+        font-size: 12px;
+    }
+    #home{
+        width: 38px;
+    }
+    header{
+        height: 28px;
+    }
+    .small{
+        width: 250px;
+        height: 102px;
+    }
+    .large{
+        width: 200px;
+        height: 267px;
+    }
+    h2{
+        padding: 10px;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    footer{
+        font-size: 8px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;      
+    }
+    .categories{
+        height: 200vh;
+    }
+    .index{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+}
