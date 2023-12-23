@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
     scroll-padding: 5rem;
 }
 
 header {
     background-color: rgb(0, 0, 0);
-    height: 3.3rem;
+    height: 3.1rem;
     position: fixed;
     top: 0%;
     width: 100%;
@@ -20,30 +20,38 @@ header {
 .netflix {
     width: 7.3rem;
     margin-left: 2rem;
-    margin-top: -1.6rem;
+    margin-top: -2rem;
 }
 
 nav {
-    margin-left: 11rem;
-    margin-top: -5.1rem;
+    margin-top: -5.3rem;
 }
 
 li a {
     text-decoration: none;
-    color: #b8b7b7;
+    color: #bdbdbd;
     font-weight: 500;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    letter-spacing: 0.5px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin: 6px;
 }
 
 li a:hover {
     color: rgb(255, 255, 255);
     font-weight: 540;
-}
-
-li {
-    display: inline;
-    padding: 0.5rem;
+    transition: 0.2s ease-in;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 7px;
 }
 
 .n {
@@ -100,10 +108,11 @@ button {
     color: white;
     border: none;
     width: 10rem;
-    height: 2.5rem;
+    height: 2.7rem;
     cursor: pointer;
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.3px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 2rem;
 }
@@ -111,13 +120,12 @@ button {
 button:hover {
     background-color: white;
     color: black;
-    font-weight: 700;
 }
 
 .categories {
     background-color: black;
     width: 100%;
-    height: 292vh;
+    height: 315vh;
     margin-top: -2.979rem;
 }
 
@@ -130,26 +138,37 @@ h2 {
 }
 
 .box {
-    margin-left: 2rem;
+    margin-left: 0.6rem;
     margin-top: 1.5rem;
     cursor: pointer;
     display: flex;
     overflow-y: auto;
-    gap: 1.2rem;
+    gap: 1.1rem;
     padding: 9px;
+    user-select: none;
 }
 
-.box::-webkit-scrollbar{
-    display: none;
+.box::-webkit-scrollbar {
+    height: 8px;
+}
+
+.box::-webkit-scrollbar-thumb {
+    background-color: #ff0000b4;
+    border-radius: 5px;
+}
+
+.box::-webkit-scrollbar-track {
+    background-color: #ffffff;
+    border-radius: px;
 }
 
 .small {
-    width: 300px;
-    height: 160px;
+    width: 25rem;
+    height: 10rem;
     object-fit: cover;
 }
 
-.small:hover{
+.small:hover {
     border: 3.2px solid white;
     transition: 0.1s;
 }
@@ -159,7 +178,7 @@ h2 {
     aspect-ratio: 6/9;
 }
 
-.large:hover{
+.large:hover {
     border: 3.5px solid white;
     transition: 0.2s;
 }
@@ -189,54 +208,75 @@ h4 {
 }
 
 @media(max-width: 998px) {
-    .contain{
+    .contain {
         font-size: 10px;
     }
+
     html {
         font-size: 50%;
     }
 }
 
 @media(max-width: 768px) {
-    .contain{
+    .contain {
         font-size: 7px;
         line-height: 12px;
     }
-    html{
-        font-size: 30%;
+
+    html {
+        font-size: 37.5%;
+        user-select: none;
     }
-    li a{
-        font-size: 12px;
+
+    ul {
+        display: flex;
+        justify-content: flex-end;
     }
-    #home{
-        width: 38px;
+
+    li a {
+        font-size: 12.1px;
+        letter-spacing: 0.4px;
+        padding: 5px;
     }
-    header{
-        height: 28px;
+
+    button{
+        background-color: rgba(142, 142, 142, 0.701);
+        font-size: 7.8px;
+        width: 35%;
+        font-weight: 800;
     }
-    .small{
+
+    header {
+        height: 30px;
+    }
+
+    .box::-webkit-scrollbar {
+        display: none;
+    }
+
+    .small {
         width: 250px;
         height: 102px;
     }
-    .large{
+
+    .large {
         width: 200px;
         height: 267px;
     }
-    h2{
+
+    h2 {
         padding: 10px;
         font-size: 15px;
         font-family: Arial, Helvetica, sans-serif;
     }
-    footer{
-        font-size: 8px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;      
-    }
-    .categories{
+
+    .categories {
         height: 200vh;
     }
-    .index{
+
+    .index {
         width: 100%;
-        height: 250px;
+        height: 270px;
         object-fit: cover;
     }
 }
