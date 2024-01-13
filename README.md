@@ -46,7 +46,7 @@ To run the project locally, follow these steps:
 
 A big shoutout to the solo developer behind this project:
 
-- [Your Name](https://github.com/your-username)
+- [Vishal Shah 😜](https://github.com/Vishalshah007)
 
 ## Feedback and Contributions
 
