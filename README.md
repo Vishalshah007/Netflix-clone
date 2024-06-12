@@ -14,9 +14,6 @@
 
 📺 **Interactive UI**: The user interface is not only aesthetically pleasing but also interactive. Enjoy smooth transitions and a user-friendly layout that enhances the overall experience.
 
-## Live Demo
-
-Explore the project live at [StreamNetflix](https://streamnetflix.netlify.app) and start streaming your favorite movies and TV shows today!
 
 ## Getting Started
 
