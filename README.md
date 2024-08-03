@@ -26,7 +26,7 @@ To run the project locally, follow these steps:
 
 2. Open the project folder:
    ```bash
-   cd StreamNetflix
+   cd flixspot
    ```
 
 3. Open the `index.html` file in your preferred browser.
