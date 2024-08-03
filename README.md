@@ -2,7 +2,7 @@
 
 ## Overview
 
-🎉 Welcome to StreamNetflix, a Netflix clone project that I built in just one week using HTML, CSS, and JavaScript! 🚀 The project is not only visually appealing but also responsive, providing an immersive streaming experience across various devices.
+🎉 Welcome to flixspot, a Netflix clone project that I built in just one week using HTML, CSS, and JavaScript! 🚀 The project is not only visually appealing but also responsive, providing an immersive streaming experience across various devices.
 
 ## Features
 
