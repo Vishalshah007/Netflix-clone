@@ -21,7 +21,7 @@ To run the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/StreamNetflix.git
+   git clone https://github.com/your-username/[StreamNetflix.git](https://flixspot.netlify.app/)
    ```
 
 2. Open the project folder:
@@ -38,6 +38,8 @@ To run the project locally, follow these steps:
 - HTML
 - CSS
 - JavaScript
+- JQuery
+- Bootstrap
 
 ## Contributors
 
