@@ -1,4 +1,4 @@
-# StreamNetflix - Netflix Clone Project
+# flixspot - Netflix Clone Project
 
 ## Overview
 
