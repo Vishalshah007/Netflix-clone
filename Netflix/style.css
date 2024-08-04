@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  background-color: #000;
+}
+
+.netflix {
+  width: 12rem;
+  margin-left: 2rem;
+}
+
+.watch {
+  color: white;
+  font-size: 2.2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.icon {
+  width: 100px;
+  transition: 0.3s;
+  margin: 2rem;
+}
+
+.icon:hover {
+  border: 1.5px solid white;
+  transform: scale(1.1);
+}
+
+.store {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  letter-spacing: 1.2px;
+  font-weight: 500;
+}
+
+@media(max-width: 998px) {
+  .netflix {
+    width: 250px;
+  }
+
+  .watch{
+    font-size: 35px;
+    margin-top: 130px;
+  }
+  
+  .store{
+    margin-top: 30px; 
+  }
+
+  .icon{
+    width: 120px;
+  }
+
+  a{
+    font-size: 30px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .icon {
+    width: 55%;
+  }
+
+  .store {
+    display: grid;
+    grid-template-rows: 190px 190px;
+    grid-template-columns: 130px 130px;
+  }
+
+  a {
+    font-size: 21px;
+    font-weight: bolder;
+  }
+
+  .netflix {
+    width: 150px;
+  }
+
+  .watch {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+}
